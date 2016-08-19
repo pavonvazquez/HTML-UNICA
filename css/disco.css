@@ -1,0 +1,162 @@
+*{
+    background-color: black;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+#barra,#header,#seccion #discouno,#seccion #discodos,#seccion #discotres,#publicidad{
+    border-style: groove;
+}
+/* ----------cabecera-----------*/
+#header{
+    width: 100%
+}
+#header img{
+    width: 100%;
+    height: 25em;
+    object-position: top;
+}
+
+/*-------barra----*/
+
+#barra ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    
+}
+#barra li{
+    float: left
+}
+#barra li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: red;
+}
+.ahora{
+    background-color: red;
+}
+
+
+/*---------Seccion--------*/
+
+
+
+section{
+    display: block;
+    float: left;
+    width: 60%;
+    background-color: black;
+}
+#seccion{
+    background-color: black;
+}
+#seccion h1{
+    font-size: 2em;
+    background-color: darkorange;
+}
+
+#seccion #discouno table{
+    color: azure;
+    margin-left: 10em
+}
+#seccion #discouno img{
+    float: left;
+    height: 150px;
+    margin-left: 1em;
+    padding-right: 1em
+}
+#seccion #discodos p{
+    background-color: darkorange;
+    padding: 1em;
+    text-align: justify;
+    font-size: 1.2em;
+}
+#seccion #discodos img{
+    float: right;
+    margin-right: 1em;
+    padding-left: 1em; 
+    height: 150px;
+}
+#seccion #discotres p{
+    background-color: darkorange;
+    padding: 1em;
+    text-align: justify;
+    font-size: 1.2em;
+}
+#seccion #discotres img{
+    float: right;
+    margin-right: 1em;
+    padding-left: 1em; 
+    height: 150px;
+}
+#seccion #discodos table{
+    color: azure;
+    margin-left: 10em
+}
+#seccion #discotres table{
+    color: azure;
+    margin-left: 10em
+}
+#seccion img{
+    width: 150px;
+    height: 150px
+}
+.disco1:hover{
+    transform:scale(1.1);
+    }
+
+
+/*------publicidad----*/
+
+#publicidad{
+    position: static;
+    float:right;
+    width: 35%;
+    top: 0;
+    bottom: 0;
+    margin-bottom: 1px;
+    background-color: red;
+    color: azure
+}
+#publicidad img{
+    width: 350px;
+    height: 500px;
+    object-position: center;
+    margin-left: 1.5em;
+    height: 200px;
+    width: 150px
+    
+}
+#publicidad h1{
+    padding: 1.5em;
+    font-size: 1em;
+    background-color: black;
+}
+#publicidad a{
+    color: azure;
+}
+
+/*-----Pie--------*/
+
+#pie{
+    clear: both;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: black;
+}
+#pie p{
+    background-color: red;
+    height: 1.5e;
+    padding: 1em;
+}

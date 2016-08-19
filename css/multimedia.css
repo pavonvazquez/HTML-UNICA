@@ -1,0 +1,145 @@
+*{
+    background-color: black;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+#barra,#header,#seccion #slider,#seccion #noticiados,#publicidad{
+    border-style: groove;
+}
+/* ----------cabecera-----------*/
+#header{
+    width: 100%
+}
+#header img{
+    width: 100%;
+    height: 25em;
+    object-position: top;
+}
+
+/*-------barra----*/
+
+#barra ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    
+}
+#barra li{
+    float: left
+}
+#barra li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: green;
+}
+.ahora{
+    background-color: green;
+}
+
+
+/*---------Seccion--------*/
+
+
+
+section{
+    display: block;
+    float: left;
+    width: 60%;
+    background-color: black;
+}
+#seccion{
+    background-color: black;
+}
+#seccion h1{
+    font-size: 2em;
+    background-color: green;
+}
+
+#seccion #noticiauno p{
+    padding: 1em;
+    text-align: justify;
+    font-size: 1.2em;
+    background-color: green;
+}
+/*-----Slider-------*/
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+#seccion #slider{
+    overflow: hidden;
+}
+#seccion #slider figure{
+  position: relative;
+  width: 400%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 15s slidy infinite; 
+}
+#seccion #slider figure img{
+    width: 400px
+}
+/*------publicidad----*/
+
+#publicidad{
+    position: static;
+    float:right;
+    width: 35%;
+    top: 0;
+    bottom: 0;
+    margin-bottom: 1px;
+    background-color: green;
+    color: azure
+}
+#publicidad img{
+    width: 350px;
+    height: 500px;
+    object-position: center;
+    margin-left: 1.5em;
+    height: 200px;
+    width: 150px
+    
+}
+#publicidad h1{
+    padding: 1.5em;
+    font-size: 1em;
+    background-color: black;
+}
+#publicidad a{
+    color: azure;
+}
+
+/*-----Pie--------*/
+
+#pie{
+    clear: both;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: black;
+}
+#pie p{
+    background-color: green;
+    height: 1.5e;
+    padding: 1em;
+}
